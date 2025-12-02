@@ -1,0 +1,105 @@
+2025-10-14 05:17:17,933 [trainer.py] => config: exps/sema_inr_5task.json
+2025-10-14 05:17:17,933 [trainer.py] => eval: False
+2025-10-14 05:17:17,934 [trainer.py] => prefix: reproduce
+2025-10-14 05:17:17,934 [trainer.py] => dataset: imagenetr
+2025-10-14 05:17:17,934 [trainer.py] => memory_size: 0
+2025-10-14 05:17:17,934 [trainer.py] => memory_per_class: 0
+2025-10-14 05:17:17,935 [trainer.py] => fixed_memory: False
+2025-10-14 05:17:17,935 [trainer.py] => shuffle: True
+2025-10-14 05:17:17,935 [trainer.py] => init_cls: 40
+2025-10-14 05:17:17,935 [trainer.py] => increment: 40
+2025-10-14 05:17:17,935 [trainer.py] => model_name: sema
+2025-10-14 05:17:17,935 [trainer.py] => backbone_type: pretrained_vit_b16_224_adapter
+2025-10-14 05:17:17,936 [trainer.py] => device: [device(type='cuda', index=0)]
+2025-10-14 05:17:17,936 [trainer.py] => seed: 1993
+2025-10-14 05:17:17,936 [trainer.py] => batch_size: 32
+2025-10-14 05:17:17,936 [trainer.py] => weight_decay: 0.0005
+2025-10-14 05:17:17,937 [trainer.py] => min_lr: 0
+2025-10-14 05:17:17,937 [trainer.py] => ffn_adapter_type: adaptmlp
+2025-10-14 05:17:17,937 [trainer.py] => ffn_num: 16
+2025-10-14 05:17:17,937 [trainer.py] => optimizer: sgd
+2025-10-14 05:17:17,937 [trainer.py] => vpt_type: shallow
+2025-10-14 05:17:17,937 [trainer.py] => prompt_token_num: 5
+2025-10-14 05:17:17,937 [trainer.py] => func_epoch: 20
+2025-10-14 05:17:17,938 [trainer.py] => rd_epoch: 20
+2025-10-14 05:17:17,938 [trainer.py] => init_lr: 0.005
+2025-10-14 05:17:17,938 [trainer.py] => rd_lr: 0.01
+2025-10-14 05:17:17,938 [trainer.py] => rd_dim: 128
+2025-10-14 05:17:17,938 [trainer.py] => buffer_size: 500
+2025-10-14 05:17:17,938 [trainer.py] => detect_batch_size: 128
+2025-10-14 05:17:17,938 [trainer.py] => exp_threshold: 2
+2025-10-14 05:17:17,939 [trainer.py] => adapt_start_layer: 9
+2025-10-14 05:17:17,939 [trainer.py] => adapt_end_layer: 11
+2025-10-14 05:17:18,074 [data_manager.py] => [168, 136, 51, 9, 183, 101, 171, 99, 42, 159, 191, 70, 16, 188, 27, 10, 175, 26, 68, 187, 98, 6, 85, 35, 112, 43, 100, 0, 103, 181, 88, 59, 4, 2, 116, 174, 94, 80, 106, 1, 147, 17, 141, 131, 72, 23, 173, 54, 197, 118, 87, 32, 79, 104, 91, 19, 135, 107, 178, 36, 11, 199, 142, 8, 122, 3, 28, 57, 153, 172, 190, 56, 49, 44, 97, 62, 151, 169, 194, 55, 192, 12, 189, 78, 66, 180, 15, 137, 109, 134, 92, 119, 126, 52, 170, 40, 148, 65, 144, 64, 138, 45, 77, 89, 154, 90, 71, 193, 74, 30, 113, 143, 96, 84, 67, 50, 186, 156, 69, 21, 18, 111, 108, 58, 125, 157, 150, 110, 182, 129, 166, 83, 81, 60, 13, 165, 14, 176, 63, 117, 5, 22, 145, 121, 38, 41, 82, 127, 114, 20, 31, 53, 37, 163, 196, 130, 152, 162, 86, 76, 24, 34, 184, 149, 33, 128, 198, 155, 146, 167, 139, 120, 140, 102, 47, 25, 158, 123, 46, 164, 61, 7, 115, 75, 133, 160, 105, 132, 179, 124, 48, 73, 93, 39, 95, 195, 29, 177, 185, 161]
+2025-10-14 05:17:20,218 [sema_block.py] => Adapter 0.0 added at block 0
+2025-10-14 05:17:20,241 [sema_block.py] => Adapter 1.0 added at block 1
+2025-10-14 05:17:20,272 [sema_block.py] => Adapter 2.0 added at block 2
+2025-10-14 05:17:20,307 [sema_block.py] => Adapter 3.0 added at block 3
+2025-10-14 05:17:20,342 [sema_block.py] => Adapter 4.0 added at block 4
+2025-10-14 05:17:20,380 [sema_block.py] => Adapter 5.0 added at block 5
+2025-10-14 05:17:20,420 [sema_block.py] => Adapter 6.0 added at block 6
+2025-10-14 05:17:20,455 [sema_block.py] => Adapter 7.0 added at block 7
+2025-10-14 05:17:20,490 [sema_block.py] => Adapter 8.0 added at block 8
+2025-10-14 05:17:20,525 [sema_block.py] => Adapter 9.0 added at block 9
+2025-10-14 05:17:20,561 [sema_block.py] => Adapter 10.0 added at block 10
+2025-10-14 05:17:20,597 [sema_block.py] => Adapter 11.0 added at block 11
+2025-10-14 05:17:21,295 [_builder.py] => Loading pretrained weights from Hugging Face hub (timm/vit_base_patch16_224.augreg2_in21k_ft_in1k)
+2025-10-14 05:17:22,032 [_hub.py] => [timm/vit_base_patch16_224.augreg2_in21k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-10-14 05:17:22,237 [trainer.py] => All params: 86704716
+2025-10-14 05:17:22,238 [trainer.py] => Trainable params: 906060
+2025-10-14 05:17:22,239 [sema.py] => Learning on 0-40
+2025-10-14 06:10:56,824 [sema.py] => func Task 0, Epoch 20/20 => Loss 0.300, Train_accy 91.67, Test_accy 92.20
+2025-10-14 06:40:53,210 [sema.py] => rd Task 0, Epoch 20/20 => Loss 0.725, Train_accy 92.19, Test_accy 92.20
+2025-10-14 06:41:03,296 [trainer.py] => No NME accuracy.
+2025-10-14 06:41:03,296 [trainer.py] => CNN: {'total': 92.2, '00-39': 92.2, 'old': 0, 'new': 92.2}
+2025-10-14 06:41:03,297 [trainer.py] => CNN top1 curve: [92.2]
+2025-10-14 06:41:03,297 [trainer.py] => CNN top5 curve: [98.18]
+
+2025-10-14 06:41:03,297 [trainer.py] => Average Accuracy (CNN): 92.2 
+
+2025-10-14 06:41:03,298 [trainer.py] => All params: 86858516
+2025-10-14 06:41:03,298 [trainer.py] => Trainable params: 153800
+2025-10-14 06:41:03,299 [sema.py] => Learning on 40-80
+2025-10-14 06:41:07,133 [sema_block.py] => Adapter 11.1 added at block 11
+2025-10-14 06:59:04,396 [sema.py] => func Task 1, Epoch 20/20 => Loss 0.338, Train_accy 91.18, Test_accy 86.79
+2025-10-14 07:17:16,993 [sema.py] => rd Task 1, Epoch 20/20 => Loss 0.496, Train_accy 90.47, Test_accy 86.79
+2025-10-14 07:18:38,598 [trainer.py] => No NME accuracy.
+2025-10-14 07:18:38,599 [trainer.py] => CNN: {'total': 86.79, '00-39': 88.19, '40-79': 85.22, 'old': 88.19, 'new': 85.22}
+2025-10-14 07:18:38,599 [trainer.py] => CNN top1 curve: [92.2, 86.79]
+2025-10-14 07:18:38,599 [trainer.py] => CNN top5 curve: [98.18, 96.32]
+
+2025-10-14 07:18:38,599 [trainer.py] => Average Accuracy (CNN): 89.495 
+
+2025-10-14 07:18:38,600 [trainer.py] => All params: 87082149
+2025-10-14 07:18:38,600 [trainer.py] => Trainable params: 153800
+2025-10-14 07:18:38,601 [sema.py] => Learning on 80-120
+2025-10-14 07:40:32,298 [sema.py] => func Task 2, Epoch 20/20 => Loss 0.298, Train_accy 91.63, Test_accy 83.43
+2025-10-14 07:40:58,743 [trainer.py] => No NME accuracy.
+2025-10-14 07:40:58,743 [trainer.py] => CNN: {'total': 83.43, '00-39': 84.25, '40-79': 80.54, '80-119': 85.44, 'old': 82.51, 'new': 85.44}
+2025-10-14 07:40:58,744 [trainer.py] => CNN top1 curve: [92.2, 86.79, 83.43]
+2025-10-14 07:40:58,744 [trainer.py] => CNN top5 curve: [98.18, 96.32, 94.6]
+
+2025-10-14 07:40:58,744 [trainer.py] => Average Accuracy (CNN): 87.47333333333334 
+
+2025-10-14 07:40:58,745 [trainer.py] => All params: 87082149
+2025-10-14 07:40:58,745 [trainer.py] => Trainable params: 153800
+2025-10-14 07:40:58,746 [sema.py] => Learning on 120-160
+2025-10-14 08:06:27,809 [sema.py] => func Task 3, Epoch 20/20 => Loss 0.292, Train_accy 92.06, Test_accy 81.37
+2025-10-14 08:07:05,176 [trainer.py] => No NME accuracy.
+2025-10-14 08:07:05,177 [trainer.py] => CNN: {'total': 81.37, '00-39': 81.0, '40-79': 79.01, '80-119': 82.13, '120-159': 83.2, 'old': 80.71, 'new': 83.2}
+2025-10-14 08:07:05,177 [trainer.py] => CNN top1 curve: [92.2, 86.79, 83.43, 81.37]
+2025-10-14 08:07:05,177 [trainer.py] => CNN top5 curve: [98.18, 96.32, 94.6, 93.24]
+
+2025-10-14 08:07:05,178 [trainer.py] => Average Accuracy (CNN): 85.9475 
+
+2025-10-14 08:07:05,178 [trainer.py] => All params: 87082149
+2025-10-14 08:07:05,179 [trainer.py] => Trainable params: 153800
+2025-10-14 08:07:05,179 [sema.py] => Learning on 160-200
+2025-10-14 08:33:10,379 [sema.py] => func Task 4, Epoch 20/20 => Loss 0.327, Train_accy 91.35, Test_accy 79.47
+2025-10-14 08:33:55,688 [trainer.py] => No NME accuracy.
+2025-10-14 08:33:55,689 [trainer.py] => CNN: {'total': 79.47, '00-39': 78.27, '40-79': 76.13, '80-119': 79.51, '120-159': 81.9, '160-199': 81.65, 'old': 79.0, 'new': 81.65}
+2025-10-14 08:33:55,689 [trainer.py] => CNN top1 curve: [92.2, 86.79, 83.43, 81.37, 79.47]
+2025-10-14 08:33:55,690 [trainer.py] => CNN top5 curve: [98.18, 96.32, 94.6, 93.24, 92.18]
+
+2025-10-14 08:33:55,690 [trainer.py] => Average Accuracy (CNN): 84.652 
+
